@@ -26,7 +26,3 @@ Pull Request 병합 시 충돌(merge conflict)이 났을 때 참고할 수 있�
    git commit -m "resolve merge conflict"
    git push origin 내브랜치
    ```
-
-## 참고
-
-- [충돌 발생 시 상세 예시](https://chaeyoung2.tistory.com/61) (외부 링크)
