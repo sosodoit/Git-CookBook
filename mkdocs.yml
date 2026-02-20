@@ -1,0 +1,33 @@
+site_name: Git CookBook
+site_description: 상황별 Git 명령어 빠른 참조
+site_url: https://sosodoit.github.io/Git-CookBook/
+
+docs_dir: docs
+theme:
+  name: material
+  language: ko
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 다크 모드로 전환
+    - media: "(prefers-color-scheme: dark)"
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 라이트 모드로 전환
+
+plugins:
+  - search
+  - awesome-pages
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.tabbed:
+      alternate_style: true

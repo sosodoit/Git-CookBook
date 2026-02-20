@@ -1,0 +1,10 @@
+# MkDocs build output
+site/
+legacy/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
